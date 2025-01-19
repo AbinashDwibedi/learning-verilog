@@ -1,0 +1,71 @@
+$date
+	Sun Jan 19 17:59:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testSimpleCounter $end
+$var wire 32 ! count [31:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var reg 32 $ count [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+1#
+0"
+b0 !
+$end
+#10
+1"
+#20
+0"
+#30
+b1 !
+b1 $
+1"
+0#
+#40
+0"
+#50
+b10 !
+b10 $
+1"
+#60
+0"
+#70
+b11 !
+b11 $
+1"
+#80
+0"
+#90
+b100 !
+b100 $
+1"
+#100
+0"
+#110
+b101 !
+b101 $
+1"
+#120
+0"
+#130
+b110 !
+b110 $
+1"
+#140
+0"

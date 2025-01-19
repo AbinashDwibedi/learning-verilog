@@ -1,0 +1,65 @@
+$date
+	Sun Jan 19 18:59:34 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test8BitAdder $end
+$var wire 8 ! sum [7:0] $end
+$var wire 1 " cout $end
+$var reg 1 # cin $end
+$var reg 8 $ in1 [7:0] $end
+$var reg 8 % in2 [7:0] $end
+$scope module uut $end
+$var wire 1 # cin $end
+$var wire 8 & in1 [7:0] $end
+$var wire 8 ' in2 [7:0] $end
+$var wire 8 ( sum [7:0] $end
+$var wire 1 " cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+x#
+x"
+bx !
+$end
+#50
+b1000000 !
+b1000000 (
+1"
+0#
+b11110000 %
+b11110000 '
+b1010000 $
+b1010000 &
+#100
+b10011110 !
+b10011110 (
+1#
+b10101101 %
+b10101101 '
+b11110000 $
+b11110000 &
+#150
+0"
+b11111001 !
+b11111001 (
+0#
+b10001100 %
+b10001100 '
+b1101101 $
+b1101101 &
+#200
